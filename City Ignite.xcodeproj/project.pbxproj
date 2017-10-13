@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A680773941913513A43859C /* libPods-OneSignalNotificationServiceExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B311DCF8AEFB3AC39845BB2 /* libPods-OneSignalNotificationServiceExtension.a */; };
+		B270C7390F91CDF4DD296E56 /* libPods-City Ignite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E343ECD65E15DF4EEC24E8DB /* libPods-City Ignite.a */; };
+		BFFC1D101E9A22D8007FED0C /* call_deborah@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFFC1D0B1E9A22D8007FED0C /* call_deborah@2x.png */; };
+		BFFC1D111E9A22D8007FED0C /* call_william@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFFC1D0C1E9A22D8007FED0C /* call_william@2x.png */; };
+		BFFC1D121E9A22D8007FED0C /* email@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFFC1D0D1E9A22D8007FED0C /* email@2x.png */; };
+		BFFC1D131E9A22D8007FED0C /* map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFFC1D0E1E9A22D8007FED0C /* map@2x.png */; };
+		BFFC1D161E9ABBFA007FED0C /* web_tab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFFC1D151E9ABBFA007FED0C /* web_tab@2x.png */; };
+		BFFC1D261E9B4AF6007FED0C /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFC1D251E9B4AF6007FED0C /* MessageViewController.m */; };
+		BFFC1D291E9B4B35007FED0C /* MessageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFC1D281E9B4B35007FED0C /* MessageViewCell.m */; };
+		BFFC1D361E9BADFC007FED0C /* MessageData.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFC1D351E9BADFC007FED0C /* MessageData.m */; };
+		BFFC1D391E9BAF26007FED0C /* SerialObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFC1D381E9BAF26007FED0C /* SerialObject.m */; };
+		BFFC1D3C1E9BAFFC007FED0C /* MyList.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFC1D3B1E9BAFFC007FED0C /* MyList.m */; };
+		F2111FB71E92DBC700A5BE56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2111FB61E92DBC700A5BE56 /* main.m */; };
+		F2111FBA1E92DBC700A5BE56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2111FB91E92DBC700A5BE56 /* AppDelegate.m */; };
+		F2111FBD1E92DBC700A5BE56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2111FBC1E92DBC700A5BE56 /* ViewController.m */; };
+		F2111FC01E92DBC700A5BE56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2111FBE1E92DBC700A5BE56 /* Main.storyboard */; };
+		F2111FC21E92DBC700A5BE56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2111FC11E92DBC700A5BE56 /* Assets.xcassets */; };
+		F2111FC51E92DBC700A5BE56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2111FC31E92DBC700A5BE56 /* LaunchScreen.storyboard */; };
+		F2111FEC1E932D4300A5BE56 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2111FEB1E932D4300A5BE56 /* MainViewController.m */; };
+		F2111FEF1E932DC600A5BE56 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2111FEE1E932DC600A5BE56 /* WebViewController.m */; };
+		F2111FF21E932EA800A5BE56 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2111FF11E932EA800A5BE56 /* HeaderView.m */; };
+		F2111FF51E932ED800A5BE56 /* ButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2111FF41E932ED800A5BE56 /* ButtonCell.m */; };
+		F262187A1E936C3B00601702 /* Content.png in Resources */ = {isa = PBXBuildFile; fileRef = F262186B1E936C3B00601702 /* Content.png */; };
+		F262187B1E936C3B00601702 /* Header.png in Resources */ = {isa = PBXBuildFile; fileRef = F262186C1E936C3B00601702 /* Header.png */; };
+		F262187C1E936C3B00601702 /* Calendar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F262186E1E936C3B00601702 /* Calendar@2x.png */; };
+		F262187D1E936C3B00601702 /* Donate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F262186F1E936C3B00601702 /* Donate@2x.png */; };
+		F262187E1E936C3B00601702 /* Facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F26218701E936C3B00601702 /* Facebook@2x.png */; };
+		F262187F1E936C3B00601702 /* Help@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F26218711E936C3B00601702 /* Help@2x.png */; };
+		F26218801E936C3B00601702 /* HopeGlobal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F26218721E936C3B00601702 /* HopeGlobal@2x.png */; };
+		F26218811E936C3B00601702 /* LetTheProphets@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F26218731E936C3B00601702 /* LetTheProphets@2x.png */; };
+		F26218821E936C3B00601702 /* MediaArchive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F26218741E936C3B00601702 /* MediaArchive@2x.png */; };
+		F26218831E936C3B00601702 /* Podcast@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F26218751E936C3B00601702 /* Podcast@2x.png */; };
+		F26218841E936C3B00601702 /* Web@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F26218761E936C3B00601702 /* Web@2x.png */; };
+		F26218851E936C3B00601702 /* WhatIs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F26218771E936C3B00601702 /* WhatIs@2x.png */; };
+		F26218861E936C3B00601702 /* WilliamsDevotional@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F26218781E936C3B00601702 /* WilliamsDevotional@2x.png */; };
+		F26218871E936C3B00601702 /* icon-appStore.png in Resources */ = {isa = PBXBuildFile; fileRef = F26218791E936C3B00601702 /* icon-appStore.png */; };
+		F26218891E939D2300601702 /* PublicChat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F26218881E939D2300601702 /* PublicChat@2x.png */; };
+		F26218921E94546700601702 /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = F26218911E94546700601702 /* NotificationService.m */; };
+		F26218961E94546700601702 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F262188E1E94546600601702 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F26218941E94546700601702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2111FAA1E92DBC600A5BE56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F262188D1E94546600601702;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F262189A1E94546700601702 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F26218961E94546700601702 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0AAD000AD097CBF604F87AAB /* Pods-City Ignite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-City Ignite.release.xcconfig"; path = "Pods/Target Support Files/Pods-City Ignite/Pods-City Ignite.release.xcconfig"; sourceTree = "<group>"; };
+		59AFC359A629721C828C2AD0 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		8B311DCF8AEFB3AC39845BB2 /* libPods-OneSignalNotificationServiceExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OneSignalNotificationServiceExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01F3526E9F14CF1A8C065B7 /* Pods-City Ignite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-City Ignite.debug.xcconfig"; path = "Pods/Target Support Files/Pods-City Ignite/Pods-City Ignite.debug.xcconfig"; sourceTree = "<group>"; };
+		AE24CD194FA573513AACC2D1 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		BFFC1D0B1E9A22D8007FED0C /* call_deborah@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "call_deborah@2x.png"; path = "TabBars/call_deborah@2x.png"; sourceTree = "<group>"; };
+		BFFC1D0C1E9A22D8007FED0C /* call_william@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "call_william@2x.png"; path = "TabBars/call_william@2x.png"; sourceTree = "<group>"; };
+		BFFC1D0D1E9A22D8007FED0C /* email@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "email@2x.png"; path = "TabBars/email@2x.png"; sourceTree = "<group>"; };
+		BFFC1D0E1E9A22D8007FED0C /* map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "map@2x.png"; path = "TabBars/map@2x.png"; sourceTree = "<group>"; };
+		BFFC1D151E9ABBFA007FED0C /* web_tab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "web_tab@2x.png"; path = "TabBars/web_tab@2x.png"; sourceTree = "<group>"; };
+		BFFC1D241E9B4AF6007FED0C /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageViewController.h; path = ../MessageViewController.h; sourceTree = "<group>"; };
+		BFFC1D251E9B4AF6007FED0C /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageViewController.m; path = ../MessageViewController.m; sourceTree = "<group>"; };
+		BFFC1D271E9B4B35007FED0C /* MessageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewCell.h; sourceTree = "<group>"; };
+		BFFC1D281E9B4B35007FED0C /* MessageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewCell.m; sourceTree = "<group>"; };
+		BFFC1D341E9BADFC007FED0C /* MessageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageData.h; sourceTree = "<group>"; };
+		BFFC1D351E9BADFC007FED0C /* MessageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageData.m; sourceTree = "<group>"; };
+		BFFC1D371E9BAF26007FED0C /* SerialObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialObject.h; sourceTree = "<group>"; };
+		BFFC1D381E9BAF26007FED0C /* SerialObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerialObject.m; sourceTree = "<group>"; };
+		BFFC1D3A1E9BAFFC007FED0C /* MyList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyList.h; sourceTree = "<group>"; };
+		BFFC1D3B1E9BAFFC007FED0C /* MyList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyList.m; sourceTree = "<group>"; };
+		BFFC1D471E9C1317007FED0C /* OneSignalNotificationServiceExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OneSignalNotificationServiceExtension.entitlements; sourceTree = "<group>"; };
+		E343ECD65E15DF4EEC24E8DB /* libPods-City Ignite.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-City Ignite.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2111FB21E92DBC700A5BE56 /* City Ignite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "City Ignite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2111FB61E92DBC700A5BE56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2111FB81E92DBC700A5BE56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2111FB91E92DBC700A5BE56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2111FBB1E92DBC700A5BE56 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F2111FBC1E92DBC700A5BE56 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F2111FBF1E92DBC700A5BE56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2111FC11E92DBC700A5BE56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2111FC41E92DBC700A5BE56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2111FC61E92DBC700A5BE56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2111FEA1E932D4300A5BE56 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F2111FEB1E932D4300A5BE56 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F2111FED1E932DC600A5BE56 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		F2111FEE1E932DC600A5BE56 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		F2111FF01E932EA800A5BE56 /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		F2111FF11E932EA800A5BE56 /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		F2111FF31E932ED800A5BE56 /* ButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonCell.h; sourceTree = "<group>"; };
+		F2111FF41E932ED800A5BE56 /* ButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonCell.m; sourceTree = "<group>"; };
+		F262186B1E936C3B00601702 /* Content.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Content.png; sourceTree = "<group>"; };
+		F262186C1E936C3B00601702 /* Header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Header.png; sourceTree = "<group>"; };
+		F262186E1E936C3B00601702 /* Calendar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Calendar@2x.png"; sourceTree = "<group>"; };
+		F262186F1E936C3B00601702 /* Donate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Donate@2x.png"; sourceTree = "<group>"; };
+		F26218701E936C3B00601702 /* Facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facebook@2x.png"; sourceTree = "<group>"; };
+		F26218711E936C3B00601702 /* Help@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Help@2x.png"; sourceTree = "<group>"; };
+		F26218721E936C3B00601702 /* HopeGlobal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HopeGlobal@2x.png"; sourceTree = "<group>"; };
+		F26218731E936C3B00601702 /* LetTheProphets@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LetTheProphets@2x.png"; sourceTree = "<group>"; };
+		F26218741E936C3B00601702 /* MediaArchive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MediaArchive@2x.png"; sourceTree = "<group>"; };
+		F26218751E936C3B00601702 /* Podcast@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Podcast@2x.png"; sourceTree = "<group>"; };
+		F26218761E936C3B00601702 /* Web@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Web@2x.png"; sourceTree = "<group>"; };
+		F26218771E936C3B00601702 /* WhatIs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WhatIs@2x.png"; sourceTree = "<group>"; };
+		F26218781E936C3B00601702 /* WilliamsDevotional@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WilliamsDevotional@2x.png"; sourceTree = "<group>"; };
+		F26218791E936C3B00601702 /* icon-appStore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-appStore.png"; sourceTree = "<group>"; };
+		F26218881E939D2300601702 /* PublicChat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PublicChat@2x.png"; sourceTree = "<group>"; };
+		F262188E1E94546600601702 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26218901E94546700601702 /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
+		F26218911E94546700601702 /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
+		F26218931E94546700601702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F262189B1E94597500601702 /* City Ignite.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "City Ignite.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2111FAF1E92DBC700A5BE56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B270C7390F91CDF4DD296E56 /* libPods-City Ignite.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F262188B1E94546600601702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A680773941913513A43859C /* libPods-OneSignalNotificationServiceExtension.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09797A89939C13BA8D82B5C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E343ECD65E15DF4EEC24E8DB /* libPods-City Ignite.a */,
+				8B311DCF8AEFB3AC39845BB2 /* libPods-OneSignalNotificationServiceExtension.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		452A449BDB015557BF65C70B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A01F3526E9F14CF1A8C065B7 /* Pods-City Ignite.debug.xcconfig */,
+				0AAD000AD097CBF604F87AAB /* Pods-City Ignite.release.xcconfig */,
+				59AFC359A629721C828C2AD0 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				AE24CD194FA573513AACC2D1 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BFFC1D0A1E9A22C6007FED0C /* TabBars */ = {
+			isa = PBXGroup;
+			children = (
+				BFFC1D0B1E9A22D8007FED0C /* call_deborah@2x.png */,
+				BFFC1D151E9ABBFA007FED0C /* web_tab@2x.png */,
+				BFFC1D0C1E9A22D8007FED0C /* call_william@2x.png */,
+				BFFC1D0D1E9A22D8007FED0C /* email@2x.png */,
+				BFFC1D0E1E9A22D8007FED0C /* map@2x.png */,
+			);
+			name = TabBars;
+			sourceTree = "<group>";
+		};
+		BFFC1D331E9BADC6007FED0C /* CustomData */ = {
+			isa = PBXGroup;
+			children = (
+				BFFC1D341E9BADFC007FED0C /* MessageData.h */,
+				BFFC1D351E9BADFC007FED0C /* MessageData.m */,
+				BFFC1D371E9BAF26007FED0C /* SerialObject.h */,
+				BFFC1D381E9BAF26007FED0C /* SerialObject.m */,
+				BFFC1D3A1E9BAFFC007FED0C /* MyList.h */,
+				BFFC1D3B1E9BAFFC007FED0C /* MyList.m */,
+			);
+			name = CustomData;
+			sourceTree = "<group>";
+		};
+		F2111FA91E92DBC600A5BE56 = {
+			isa = PBXGroup;
+			children = (
+				F2111FB41E92DBC700A5BE56 /* City Ignite */,
+				F262188F1E94546700601702 /* OneSignalNotificationServiceExtension */,
+				F2111FB31E92DBC700A5BE56 /* Products */,
+				452A449BDB015557BF65C70B /* Pods */,
+				09797A89939C13BA8D82B5C8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F2111FB31E92DBC700A5BE56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2111FB21E92DBC700A5BE56 /* City Ignite.app */,
+				F262188E1E94546600601702 /* OneSignalNotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2111FB41E92DBC700A5BE56 /* City Ignite */ = {
+			isa = PBXGroup;
+			children = (
+				F262189B1E94597500601702 /* City Ignite.entitlements */,
+				F26218691E936C3B00601702 /* Resources */,
+				BFFC1D331E9BADC6007FED0C /* CustomData */,
+				F2111FF61E932F4900A5BE56 /* CustomCells */,
+				F2111FB81E92DBC700A5BE56 /* AppDelegate.h */,
+				F2111FB91E92DBC700A5BE56 /* AppDelegate.m */,
+				F2111FEA1E932D4300A5BE56 /* MainViewController.h */,
+				F2111FEB1E932D4300A5BE56 /* MainViewController.m */,
+				F2111FED1E932DC600A5BE56 /* WebViewController.h */,
+				F2111FEE1E932DC600A5BE56 /* WebViewController.m */,
+				BFFC1D241E9B4AF6007FED0C /* MessageViewController.h */,
+				BFFC1D251E9B4AF6007FED0C /* MessageViewController.m */,
+				F2111FF01E932EA800A5BE56 /* HeaderView.h */,
+				F2111FF11E932EA800A5BE56 /* HeaderView.m */,
+				F2111FBB1E92DBC700A5BE56 /* ViewController.h */,
+				F2111FBC1E92DBC700A5BE56 /* ViewController.m */,
+				F2111FBE1E92DBC700A5BE56 /* Main.storyboard */,
+				F2111FC11E92DBC700A5BE56 /* Assets.xcassets */,
+				F2111FC31E92DBC700A5BE56 /* LaunchScreen.storyboard */,
+				F2111FC61E92DBC700A5BE56 /* Info.plist */,
+				F2111FB51E92DBC700A5BE56 /* Supporting Files */,
+			);
+			path = "City Ignite";
+			sourceTree = "<group>";
+		};
+		F2111FB51E92DBC700A5BE56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2111FB61E92DBC700A5BE56 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2111FF61E932F4900A5BE56 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				F2111FF31E932ED800A5BE56 /* ButtonCell.h */,
+				F2111FF41E932ED800A5BE56 /* ButtonCell.m */,
+				BFFC1D271E9B4B35007FED0C /* MessageViewCell.h */,
+				BFFC1D281E9B4B35007FED0C /* MessageViewCell.m */,
+			);
+			name = CustomCells;
+			sourceTree = "<group>";
+		};
+		F26218691E936C3B00601702 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BFFC1D0A1E9A22C6007FED0C /* TabBars */,
+				F262186A1E936C3B00601702 /* background */,
+				F262186D1E936C3B00601702 /* buttons */,
+				F26218791E936C3B00601702 /* icon-appStore.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F262186A1E936C3B00601702 /* background */ = {
+			isa = PBXGroup;
+			children = (
+				F262186B1E936C3B00601702 /* Content.png */,
+				F262186C1E936C3B00601702 /* Header.png */,
+			);
+			path = background;
+			sourceTree = "<group>";
+		};
+		F262186D1E936C3B00601702 /* buttons */ = {
+			isa = PBXGroup;
+			children = (
+				F262186E1E936C3B00601702 /* Calendar@2x.png */,
+				F262186F1E936C3B00601702 /* Donate@2x.png */,
+				F26218701E936C3B00601702 /* Facebook@2x.png */,
+				F26218711E936C3B00601702 /* Help@2x.png */,
+				F26218721E936C3B00601702 /* HopeGlobal@2x.png */,
+				F26218881E939D2300601702 /* PublicChat@2x.png */,
+				F26218731E936C3B00601702 /* LetTheProphets@2x.png */,
+				F26218741E936C3B00601702 /* MediaArchive@2x.png */,
+				F26218751E936C3B00601702 /* Podcast@2x.png */,
+				F26218761E936C3B00601702 /* Web@2x.png */,
+				F26218771E936C3B00601702 /* WhatIs@2x.png */,
+				F26218781E936C3B00601702 /* WilliamsDevotional@2x.png */,
+			);
+			path = buttons;
+			sourceTree = "<group>";
+		};
+		F262188F1E94546700601702 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				BFFC1D471E9C1317007FED0C /* OneSignalNotificationServiceExtension.entitlements */,
+				F26218901E94546700601702 /* NotificationService.h */,
+				F26218911E94546700601702 /* NotificationService.m */,
+				F26218931E94546700601702 /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2111FB11E92DBC700A5BE56 /* City Ignite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2111FC91E92DBC700A5BE56 /* Build configuration list for PBXNativeTarget "City Ignite" */;
+			buildPhases = (
+				E77A4846539EF258FB8E0270 /* [CP] Check Pods Manifest.lock */,
+				F2111FAE1E92DBC700A5BE56 /* Sources */,
+				F2111FAF1E92DBC700A5BE56 /* Frameworks */,
+				F2111FB01E92DBC700A5BE56 /* Resources */,
+				F262189A1E94546700601702 /* Embed App Extensions */,
+				7F4402C919031F994239F153 /* [CP] Embed Pods Frameworks */,
+				183FFCDA19669F23BF8DDF54 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F26218951E94546700601702 /* PBXTargetDependency */,
+			);
+			name = "City Ignite";
+			productName = "City Ignite";
+			productReference = F2111FB21E92DBC700A5BE56 /* City Ignite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F262188D1E94546600601702 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26218971E94546700601702 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				0676792DE3DF3E8B68748269 /* [CP] Check Pods Manifest.lock */,
+				F262188A1E94546600601702 /* Sources */,
+				F262188B1E94546600601702 /* Frameworks */,
+				F262188C1E94546600601702 /* Resources */,
+				A9B14DDEAB02B2D248031039 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = F262188E1E94546600601702 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2111FAA1E92DBC600A5BE56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = dmc;
+				TargetAttributes = {
+					F2111FB11E92DBC700A5BE56 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 97MDRVJBTU;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					F262188D1E94546600601702 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 97MDRVJBTU;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = F2111FAD1E92DBC600A5BE56 /* Build configuration list for PBXProject "City Ignite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2111FA91E92DBC600A5BE56;
+			productRefGroup = F2111FB31E92DBC700A5BE56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2111FB11E92DBC700A5BE56 /* City Ignite */,
+				F262188D1E94546600601702 /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2111FB01E92DBC700A5BE56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26218831E936C3B00601702 /* Podcast@2x.png in Resources */,
+				F2111FC51E92DBC700A5BE56 /* LaunchScreen.storyboard in Resources */,
+				BFFC1D111E9A22D8007FED0C /* call_william@2x.png in Resources */,
+				F262187B1E936C3B00601702 /* Header.png in Resources */,
+				F26218841E936C3B00601702 /* Web@2x.png in Resources */,
+				F26218821E936C3B00601702 /* MediaArchive@2x.png in Resources */,
+				F26218811E936C3B00601702 /* LetTheProphets@2x.png in Resources */,
+				F262187A1E936C3B00601702 /* Content.png in Resources */,
+				BFFC1D121E9A22D8007FED0C /* email@2x.png in Resources */,
+				BFFC1D131E9A22D8007FED0C /* map@2x.png in Resources */,
+				F2111FC21E92DBC700A5BE56 /* Assets.xcassets in Resources */,
+				F26218851E936C3B00601702 /* WhatIs@2x.png in Resources */,
+				F262187D1E936C3B00601702 /* Donate@2x.png in Resources */,
+				F262187C1E936C3B00601702 /* Calendar@2x.png in Resources */,
+				BFFC1D101E9A22D8007FED0C /* call_deborah@2x.png in Resources */,
+				F262187E1E936C3B00601702 /* Facebook@2x.png in Resources */,
+				F26218801E936C3B00601702 /* HopeGlobal@2x.png in Resources */,
+				F26218891E939D2300601702 /* PublicChat@2x.png in Resources */,
+				F26218861E936C3B00601702 /* WilliamsDevotional@2x.png in Resources */,
+				F26218871E936C3B00601702 /* icon-appStore.png in Resources */,
+				F2111FC01E92DBC700A5BE56 /* Main.storyboard in Resources */,
+				F262187F1E936C3B00601702 /* Help@2x.png in Resources */,
+				BFFC1D161E9ABBFA007FED0C /* web_tab@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F262188C1E94546600601702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0676792DE3DF3E8B68748269 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		183FFCDA19669F23BF8DDF54 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-City Ignite/Pods-City Ignite-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F4402C919031F994239F153 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-City Ignite/Pods-City Ignite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9B14DDEAB02B2D248031039 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E77A4846539EF258FB8E0270 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2111FAE1E92DBC700A5BE56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFC1D291E9B4B35007FED0C /* MessageViewCell.m in Sources */,
+				BFFC1D3C1E9BAFFC007FED0C /* MyList.m in Sources */,
+				F2111FBD1E92DBC700A5BE56 /* ViewController.m in Sources */,
+				F2111FF21E932EA800A5BE56 /* HeaderView.m in Sources */,
+				BFFC1D361E9BADFC007FED0C /* MessageData.m in Sources */,
+				F2111FEF1E932DC600A5BE56 /* WebViewController.m in Sources */,
+				F2111FBA1E92DBC700A5BE56 /* AppDelegate.m in Sources */,
+				F2111FF51E932ED800A5BE56 /* ButtonCell.m in Sources */,
+				F2111FB71E92DBC700A5BE56 /* main.m in Sources */,
+				BFFC1D391E9BAF26007FED0C /* SerialObject.m in Sources */,
+				BFFC1D261E9B4AF6007FED0C /* MessageViewController.m in Sources */,
+				F2111FEC1E932D4300A5BE56 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F262188A1E94546600601702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26218921E94546700601702 /* NotificationService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F26218951E94546700601702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F262188D1E94546600601702 /* OneSignalNotificationServiceExtension */;
+			targetProxy = F26218941E94546700601702 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2111FBE1E92DBC700A5BE56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2111FBF1E92DBC700A5BE56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2111FC31E92DBC700A5BE56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2111FC41E92DBC700A5BE56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2111FC71E92DBC700A5BE56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2111FC81E92DBC700A5BE56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2111FCA1E92DBC700A5BE56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A01F3526E9F14CF1A8C065B7 /* Pods-City Ignite.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "City Ignite/City Ignite.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Petrus Vermaak (97MDRVJBTU)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 97MDRVJBTU;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "City Ignite/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.jkr.City-Ignite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ae78d442-732c-4db7-bf74-e2bfdb796d5a";
+				PROVISIONING_PROFILE_SPECIFIER = "City Ignite_appStore";
+			};
+			name = Debug;
+		};
+		F2111FCB1E92DBC700A5BE56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AAD000AD097CBF604F87AAB /* Pods-City Ignite.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "City Ignite/City Ignite.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Petrus Vermaak (97MDRVJBTU)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 97MDRVJBTU;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "City Ignite/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.jkr.City-Ignite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ae78d442-732c-4db7-bf74-e2bfdb796d5a";
+				PROVISIONING_PROFILE_SPECIFIER = "City Ignite_appStore";
+			};
+			name = Release;
+		};
+		F26218981E94546700601702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59AFC359A629721C828C2AD0 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Petrus Vermaak (97MDRVJBTU)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 97MDRVJBTU;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.jkr.City-Ignite.OneSignalNotificationServiceExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7d8ac5f1-2d01-4615-bfa7-765c7b0c2e5a";
+				PROVISIONING_PROFILE_SPECIFIER = "City Ignite OneSignal_appStore";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F26218991E94546700601702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE24CD194FA573513AACC2D1 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Petrus Vermaak (97MDRVJBTU)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 97MDRVJBTU;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.jkr.City-Ignite.OneSignalNotificationServiceExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7d8ac5f1-2d01-4615-bfa7-765c7b0c2e5a";
+				PROVISIONING_PROFILE_SPECIFIER = "City Ignite OneSignal_appStore";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2111FAD1E92DBC600A5BE56 /* Build configuration list for PBXProject "City Ignite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2111FC71E92DBC700A5BE56 /* Debug */,
+				F2111FC81E92DBC700A5BE56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2111FC91E92DBC700A5BE56 /* Build configuration list for PBXNativeTarget "City Ignite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2111FCA1E92DBC700A5BE56 /* Debug */,
+				F2111FCB1E92DBC700A5BE56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F26218971E94546700601702 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26218981E94546700601702 /* Debug */,
+				F26218991E94546700601702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2111FAA1E92DBC600A5BE56 /* Project object */;
+}
